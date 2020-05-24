@@ -58,6 +58,7 @@
     "tslint-react": "^4.0.0",
     "typescript": "3.5.1"
   },
+  "type": "module",
   "dependencies": {
     "antd": "^4.2.4",
     "react": "^16.13.1",
