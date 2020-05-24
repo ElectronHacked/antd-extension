@@ -1,7 +1,7 @@
 import * as React from 'react'
-import 'antd/es/collapse/style'
-import 'antd/es/form/style'
-import Collapse, { CollapseProps } from 'antd/es/collapse'
+import 'antdlib/collapse/style'
+import 'antd/lib/form/style'
+import Collapse, { CollapseProps } from 'antd/lib/collapse'
 
 const { Panel } = Collapse
 
