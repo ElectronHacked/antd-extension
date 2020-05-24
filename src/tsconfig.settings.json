@@ -5,6 +5,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
     "strict": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,7 +15,7 @@
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
-    "skipDefaultLibCheck":true,
-    "jsx": "preserve",
+    "skipDefaultLibCheck": true,
+    "jsx": "preserve"
   }
 }
