@@ -5,6 +5,7 @@ yarn-error.log
 yarn.lock
 package-lock.json
 .coverage
+.vscode/
 
 # Mac General
 .DS_Store
