@@ -1,6 +1,6 @@
 {
   "name": "collapsible-panel",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Expansion Ant Desgin From Component",
   "main": "lib/index.js",
   "module": "es/index.js",
