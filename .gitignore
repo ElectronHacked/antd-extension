@@ -6,6 +6,7 @@ yarn.lock
 package-lock.json
 .coverage
 .vscode/
+lerna-debug.log
 
 # Mac General
 .DS_Store
