@@ -1,0 +1,53 @@
+@import '~antd/lib/style/index.less';
+@import '~antd/lib/collapse/style/index.less';
+
+@extra-margin: 28px;
+
+.collapsible-sha-panel {
+  // ant-collapse
+  &.ant-collapse-icon-position-left {
+    .ant-collapse-header-text {
+      margin-left: @extra-margin;
+    }
+  }
+
+  &.ant-collapse-icon-position-right {
+    .ant-collapse-extra {
+      margin-right: @extra-margin;
+    }
+  }
+
+  &.no-content-padding {
+    .ant-collapse-content-box {
+      padding: unset;
+      padding-top: 16px;
+    }
+  }
+
+  .ant-collapse-item {
+    .ant-collapse-header {
+      border-top: 3px solid @primary-color;
+      padding: 0 8px;
+      min-height: 25px;
+      font-size: 15px;
+      font-weight: 500;
+
+      position: relative;
+      display: flex;
+      // justify-content: space-between;
+
+      .ant-collapse-extra {
+        float: unset;
+        margin: 5px @extra-margin 5px;
+      }
+    }
+
+    .ant-collapse-content {
+      border-top: unset;
+
+      &.no-content-padding {
+        padding: unset;
+      }
+    }
+  }
+}

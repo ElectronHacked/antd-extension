@@ -1,0 +1,25 @@
+{
+  "name": "collapsibke-panel",
+  "version": "0.0.1",
+  "description": "Expansion Ant Desgin From Component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "author": "zuiidea",
+  "keywords": [
+    "Form Pro",
+    "Form Extension",
+    "Ant Design",
+    "Ant Design Extension",
+    "Configurable",
+    "React lazy",
+    "Load on demand"
+  ],
+  "dependencies": {
+    "antd": "^4.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

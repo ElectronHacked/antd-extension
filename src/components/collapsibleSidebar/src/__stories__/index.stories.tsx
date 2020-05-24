@@ -1,14 +1,14 @@
 import { withConsole } from '@storybook/addon-console'
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
-import StandardFormPro from './FormPro.stories'
-import WithModal from './WithModal.stories'
-import CustomizedFormControls from './CustomizedFormControls.stories'
-import Markdown from '../../../Markdown'
+import BasicPanel from './BasicPanel.stories'
+import WithControls from './WithControls.stories'
+import WithExpansionIcon from './WithExpansionIcon.stories'
+import Markdown from '../../../../Markdown'
 import ReadMe from '../../README.md'
 import ReadMeZHCN from '../../README.zh-CN.md'
 
-storiesOf('COMPONENTS|FormPro', module)
+storiesOf('COMPONENTS|CollapsiblePanel', module)
   .addDecorator((storyFn: any, context: any) => withConsole()(storyFn)(context))
   .add('Read Me', () => (
     <Markdown
@@ -28,6 +28,6 @@ storiesOf('COMPONENTS|FormPro', module)
       )}
     />
   ))
-  .add('Standard FormPro', () => <StandardFormPro />)
-  .add('With Modal', () => <WithModal />)
-  .add('Customized Form Controls', () => <CustomizedFormControls />)
+  .add('Basic CollapsiblePanel', () => <BasicPanel />)
+  .add('With controls', () => <WithControls />)
+  .add('Customized Form Controls', () => <WithExpansionIcon />)

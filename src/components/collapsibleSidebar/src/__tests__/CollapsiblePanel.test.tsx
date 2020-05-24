@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { shallow } from 'enzyme'
-import FormPro from '../FormPro'
+import CollapsiblePanel from '../CollapsiblePanel'
 
-describe('FormPro', () => {
+describe('CollapsiblePanel', () => {
   it('renders', () => {
-    const wrapper = shallow(<FormPro>OK</FormPro>)
+    const wrapper = shallow(<CollapsiblePanel>OK</CollapsiblePanel>)
     expect(wrapper).toMatchInlineSnapshot('ShallowWrapper {}')
   })
 })
