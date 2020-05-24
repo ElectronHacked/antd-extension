@@ -1,10 +1,10 @@
 {
-  "name": "collapsibke-panel",
+  "name": "collapsible-panel",
   "version": "0.0.2",
   "description": "Expansion Ant Desgin From Component",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "author": "zuiidea",
+  "author": "phillemonm",
   "keywords": [
     "Form Pro",
     "Form Extension",

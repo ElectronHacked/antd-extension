@@ -20,7 +20,7 @@ export interface ICollapsiblePanelProps extends CollapseProps {
   noContentPadding?: boolean
 }
 
-export const CollapsiblePanel: React.FC<ICollapsiblePanelProps> = ({
+const CollapsiblePanel: React.FC<ICollapsiblePanelProps> = ({
   expandIconPosition = 'right',
   onChange,
   header,
