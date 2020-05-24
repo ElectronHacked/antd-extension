@@ -4,9 +4,9 @@
   </a>
 </p>
 
-English | [简体中文](./README.zh-CN.md)
+English 
 
-## FormPro
+## CollapsibleSidebar
 
 - Generate forms with configuration, No need to use `import` cumbersome form controls.
 - Use the `React.lazy` API to support loading most of the `Ant Design` data input components on demand.
@@ -17,7 +17,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## When To Use
 
-Can completely replace Ant Design's [Form](https://ant.design/components/form/#Form) component, dealing with complex forms, pop-up windows, etc.  
+Can completely replace Ant Design's [Collapse.Panel](https://ant.design/components/collapse/#Collapse.Panel) component, dealing with complex forms, pop-up windows, etc.  
 
 ## How To Use
 

@@ -1,5 +1,5 @@
 {
-  "name": "antd-extension",
+  "name": "antd-extension-components",
   "version": "0.0.1",
   "scripts": {
     "storybook": "SET NODE_ENV=development&& start-storybook -p 9002",
