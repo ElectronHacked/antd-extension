@@ -1,5 +1,5 @@
 import * as React from 'react'
-import 'antdlib/collapse/style'
+import 'antd/lib/collapse/style'
 import 'antd/lib/form/style'
 import Collapse, { CollapseProps } from 'antd/lib/collapse'
 
